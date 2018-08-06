@@ -1,0 +1,49 @@
+====== TESTING METRICS ======
+1. accuracy
+    1.1. pie_izquierdo: 0.8822083473205566
+    1.2. pie_derecho: 0.9600942730903625
+    1.3. rodilla_izquierda: 0.8712712526321411
+    1.4. rodilla_derecha: 0.9228150844573975
+    1.5. cadera: 0.9391658902168274
+    1.6. columna: 0.9665045142173767
+    1.7. mean: 0.9236765503883362
+2. recall
+    2.1. pie_izquierdo: 0.11248520016670227
+    2.2. pie_derecho: 0.2604476511478424
+    2.3. rodilla_izquierda: 0.12633268535137177
+    2.4. rodilla_derecha: 0.5611271858215332
+    2.5. cadera: 0.5643991827964783
+    2.6. columna: 0.584566593170166
+    2.7. mean: 0.36822640895843506
+3. precision
+    3.1. pie_izquierdo: 0.7898383140563965
+    3.2. pie_derecho: 1.0
+    3.3. rodilla_izquierda: 1.0
+    3.4. rodilla_derecha: 0.9170825481414795
+    3.5. cadera: 0.824749231338501
+    3.6. columna: 0.9935321807861328
+    3.7. mean: 0.9208670258522034
+4. f1_score
+    4.1. pie_izquierdo: 0.19692496955394745
+    4.2. pie_derecho: 0.4132618308067322
+    4.3. rodilla_izquierda: 0.2243255227804184
+    4.4. rodilla_derecha: 0.6962471604347229
+    4.5. cadera: 0.6701766848564148
+    4.6. columna: 0.7360571026802063
+    4.7. mean: 0.48949888348579407
+5. pearson_correlation
+    5.1. pie_izquierdo: 0.7906546592712402
+    5.2. pie_derecho: 0.924563467502594
+    5.3. rodilla_izquierda: 0.7437249422073364
+    5.4. rodilla_derecha: 0.8726295232772827
+    5.5. cadera: 0.894512951374054
+    5.6. columna: 0.9523093700408936
+    5.7. mean: 0.8630658984184265
+6. auc
+    6.1. pie_izquierdo: 0.944520115852356
+    6.2. pie_derecho: 0.9656088352203369
+    6.3. rodilla_izquierda: 0.8987629413604736
+    6.4. rodilla_derecha: 0.9775848388671875
+    6.5. cadera: 0.9823712706565857
+    6.6. columna: 0.997047483921051
+    6.7. mean: 0.9609825611114502

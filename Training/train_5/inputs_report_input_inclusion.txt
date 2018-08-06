@@ -1,0 +1,80 @@
+====================== REPORT OF INPUTS - INCLUSION ANALYSIS =======================
+
+       Label |  Prediction |    Input       |   p_value   | Standard_error| In_model
+------------------------------------------------------------------------------------
+  pie_izquierdo   |  False |   lambda_x_7   |   5.288069  |   0.018742    |  True        
+  pie_izquierdo   |  False |   lambda_y_3   |   9.671914  |   0.001473    |  True        
+  pie_izquierdo   |  False |  lambda_yz_15  |  40.295524  |   0.013014    |  True        
+  pie_izquierdo   |  False |  lambda_xyz_4  |  39.254542  |   0.004693    |  True        
+  pie_izquierdo   |   True |   lambda_x_7   |   5.288069  |   0.018742    |  True        
+  pie_izquierdo   |   True |   lambda_y_3   |   9.671914  |   0.001473    |  True        
+  pie_izquierdo   |   True |  lambda_yz_15  |  40.295523  |   0.013014    |  True        
+  pie_izquierdo   |   True |  lambda_xyz_4  |  39.254542  |   0.004693    |  True        
+rodilla_izquierda |  False |   ancho pie    |   0.001168  |   0.000135    |  True        
+rodilla_izquierda |  False |  largo muslo   |   0.000966  |   0.000059    |  True        
+rodilla_izquierda |  False |     altura     |   0.001152  |   0.000039    |  True        
+rodilla_izquierda |  False |      peso      |   0.000581  |   0.000000    |  True        
+rodilla_izquierda |  False |  lambda_z_16   |   2.059444  |   0.017853    |  True        
+rodilla_izquierda |   True |   ancho pie    |   0.001168  |   0.000135    |  True        
+rodilla_izquierda |   True |  largo muslo   |   0.000966  |   0.000059    |  True        
+rodilla_izquierda |   True |     altura     |   0.001152  |   0.000039    |  True        
+rodilla_izquierda |   True |      peso      |   0.000581  |   0.000000    |  True        
+rodilla_izquierda |   True |  lambda_z_16   |   2.059443  |   0.017853    |  True        
+ rodilla_derecha  |  False |   largo pie    |   0.006666  |   0.003964    |  True        
+ rodilla_derecha  |  False |      peso      |   0.002073  |   0.006220    |  True        
+ rodilla_derecha  |  False |   lambda_x_2   |   7.419699  |   0.003764    |  True        
+ rodilla_derecha  |  False |  lambda_x_18   |   6.564478  |   0.000947    |  True        
+ rodilla_derecha  |  False |  lambda_y_12   |  10.237784  |   0.030218    |  True        
+ rodilla_derecha  |  False |  lambda_yz_16  |  55.794504  |   0.044555    |  True        
+ rodilla_derecha  |  False |  lambda_xyz_8  |  56.194754  |   0.020689    |  True        
+ rodilla_derecha  |   True |   largo pie    |   0.006666  |   0.003964    |  True        
+ rodilla_derecha  |   True |      peso      |   0.002073  |   0.006220    |  True        
+ rodilla_derecha  |   True |   lambda_x_2   |   7.419699  |   0.003764    |  True        
+ rodilla_derecha  |   True |  lambda_x_18   |   6.564478  |   0.000947    |  True        
+ rodilla_derecha  |   True |  lambda_y_12   |  10.237784  |   0.030218    |  True        
+ rodilla_derecha  |   True |  lambda_yz_16  |  55.794504  |   0.044555    |  True        
+ rodilla_derecha  |   True |  lambda_xyz_8  |  56.194754  |   0.020689    |  True        
+      cadera      |  False |     LLE_z      |   1.519851  |   0.004910    |  True        
+      cadera      |  False |   lambda_x_2   |   6.585644  |   0.037045    |  True        
+      cadera      |  False |  lambda_z_14   |   6.726245  |   0.006094    |  True        
+      cadera      |  False |  lambda_z_18   |   5.620143  |   0.006933    |  True        
+      cadera      |  False |  lambda_yz_8   |  44.982801  |   0.025114    |  True        
+      cadera      |  False |  lambda_xyz_1  |  50.437198  |   0.004848    |  True        
+      cadera      |   True |     LLE_z      |   1.519851  |   0.004910    |  True        
+      cadera      |   True |   lambda_x_2   |   6.585643  |   0.037045    |  True        
+      cadera      |   True |  lambda_z_14   |   6.726245  |   0.006094    |  True        
+      cadera      |   True |  lambda_z_18   |   5.620143  |   0.006933    |  True        
+      cadera      |   True |  lambda_yz_8   |  44.982801  |   0.025114    |  True        
+      cadera      |   True |  lambda_xyz_1  |  50.437197  |   0.004848    |  True        
+     columna      |  False | distanc talones|   0.003026  |   0.000957    |  True
+     columna      |  False |      edad      |   0.011811  |   0.000367    |  True        
+     columna      |  False |     LLE_x      |   1.169967  |   0.035416    |  True        
+     columna      |  False |     LLE_z      |   0.969222  |   0.027138    |  True        
+     columna      |  False |   lambda_x_3   |   4.469178  |   0.000000    |  True        
+     columna      |  False |  lambda_x_13   |   5.055369  |   0.030483    |  True        
+     columna      |  False |  lambda_x_14   |   4.986877  |   0.017117    |  True        
+     columna      |  False |  lambda_x_16   |   3.852954  |   0.000000    |  True        
+     columna      |  False |  lambda_x_20   |   3.386267  |   0.029746    |  True        
+     columna      |  False |   lambda_y_4   |   5.511523  |   0.000001    |  True        
+     columna      |  False |   lambda_y_9   |   4.989489  |   0.042709    |  True        
+     columna      |  False |  lambda_y_19   |   5.257863  |   0.000000    |  True        
+     columna      |  False |  lambda_y_20   |   5.291701  |   0.006869    |  True        
+     columna      |  False |   lambda_z_5   |   4.392604  |   0.000110    |  True        
+     columna      |  False |   lambda_z_7   |   5.305686  |   0.000002    |  True        
+     columna      |  False |  lambda_xyz_8  |  26.827847  |   0.017661    |  True        
+     columna      |   True | distanc talones|   0.003026  |   0.000957    |  True
+     columna      |   True |      edad      |   0.011811  |   0.000367    |  True        
+     columna      |   True |     LLE_x      |   1.169967  |   0.035416    |  True        
+     columna      |   True |     LLE_z      |   0.969222  |   0.027138    |  True        
+     columna      |   True |   lambda_x_3   |   4.469177  |   0.000000    |  True        
+     columna      |   True |  lambda_x_13   |   5.055369  |   0.030483    |  True        
+     columna      |   True |  lambda_x_14   |   4.986877  |   0.017117    |  True        
+     columna      |   True |  lambda_x_16   |   3.852954  |   0.000000    |  True        
+     columna      |   True |  lambda_x_20   |   3.386266  |   0.029746    |  True        
+     columna      |   True |   lambda_y_4   |   5.511523  |   0.000001    |  True        
+     columna      |   True |   lambda_y_9   |   4.989489  |   0.042709    |  True        
+     columna      |   True |  lambda_y_19   |   5.257863  |   0.000000    |  True        
+     columna      |   True |  lambda_y_20   |   5.291700  |   0.006869    |  True        
+     columna      |   True |   lambda_z_5   |   4.392604  |   0.000110    |  True        
+     columna      |   True |   lambda_z_7   |   5.305685  |   0.000002    |  True        
+     columna      |   True |  lambda_xyz_8  |  26.827846  |   0.017661    |  True        

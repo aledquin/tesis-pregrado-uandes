@@ -1,0 +1,12 @@
+=========== TRAINING CONFIGURATION ===========
+num_input_data = 114
+learning_rate = 0.0002
+enable_dropout = True
+keep_prob = 0.55
+epochs = 40000
+batch_size = 64
+hidden_units = [4096, 64]
+l2_regularization_parameter_weights = 0.0001
+l2_regularization_parameter_biases = 0.001
+optimizer_name = AdamOptimizer
+activation_function_name = relu
